@@ -1,0 +1,22 @@
+{
+  "name": "node_learning",
+  "version": "1.0.0",
+  "description": "Yuheng is practicing using npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marchingheng/node_learning.git"
+  },
+  "author": "Yuheng Cai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marchingheng/node_learning/issues"
+  },
+  "homepage": "https://github.com/marchingheng/node_learning#readme",
+  "dependencies": {
+    "math": "0.0.3"
+  }
+}
