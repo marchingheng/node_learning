@@ -1,0 +1,6 @@
+var fs = require("fs")
+fd = fs.openSync("hello1.txt", "w")
+fs.writeSync(fd, "this is written synchronously")
+console.log("write succeeded!")
+fs.closeSync(fd)
+console.log("file is closed!")
